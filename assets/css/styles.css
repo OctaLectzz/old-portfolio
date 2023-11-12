@@ -826,6 +826,104 @@ body.dark-theme {
   background-color: var(--white-color);
 }
 
+/* Badge */
+.badge__header {
+  margin-top: 10px;
+}
+.badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 4px 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.HTML__badge {
+  background-color: var(--first-color);
+  color: var(--first-color);
+  background-color: rgba(209, 127, 20, 0.25);
+  border: 1px solid var(--first-color);
+}
+.HTML__badge:hover {
+  background-color: var(--first-color);
+  border-color: var(--first-color);
+  color: #fff;
+}
+
+.CSS__badge {
+  background-color: #001a8f;
+  color: #001a8f;
+  background-color: rgba(52, 152, 219, 0.25);
+  border: 1px solid #001a8f;
+}
+.CSS__badge:hover {
+  background-color: #001a8f;
+  border-color: #001a8f;
+  color: #fff;
+}
+
+.PHP__badge {
+  background-color: #3498db;
+  color: #3498db;
+  background-color: rgba(52, 152, 219, 0.25);
+  border: 1px solid #3498db;
+}
+.PHP__badge:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+  color: #fff;
+}
+
+.BOOTSTRAP__badge {
+  background-color: #ba34db;
+  color: #841c9e;
+  background-color: rgba(152, 52, 219, 0.25);
+  border: 1px solid #ba34db;
+}
+.BOOTSTRAP__badge:hover {
+  background-color: #ba34db;
+  border-color: #ba34db;
+  color: #fff;
+}
+
+.MySQL__badge {
+  background-color: #db6934;
+  color: #db6934;
+  background-color: rgba(207, 121, 8, 0.25);
+  border: 1px solid ;
+}
+.MySQL__badge:hover {
+  background-color: #db6934;
+  border-color: #db6934;
+  color: #fff;
+}
+
+.LARAVEL__badge {
+  background-color: red;
+  color: red;
+  background-color: rgba(207, 8, 8, 0.25);
+  border: 1px solid ;
+}
+.LARAVEL__badge:hover {
+  background-color: red;
+  border-color: red;
+  color: #fff;
+}
+
+.REACT__badge {
+  background-color: #00a5a5;
+  color: #00a5a5;
+  background-color: rgba(8, 167, 207, 0.25);
+  border: 1px solid ;
+}
+.REACT__badge:hover {
+  background-color: #00a5a5;
+  border-color: #00a5a5;
+  color: #fff;
+}
+
 
 /*=============== CONTACT ===============*/
 .contact {
